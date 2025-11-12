@@ -281,6 +281,48 @@ print(str[8])   # Ending Index
 """
 
 # ========================= Slicing =============================
+"""
+str = "Good Morning"
+print(str[6:9])
+print(str[9])
+print(str[1:6])
+print(str[6])
+print(str[-1])
+print(str[-5:-1])
+print(str[:])               # full string
+print(str[:4])              # string starting to -1 index no 
+print(str[6:])              # index no to string ending
+print(str[:-1])
+print(str[-(len(str)):])
+
+print(str[len(str):4:-1])   # reverse string
+print(str[0:len(str):2])    # step jump 2
+"""
+# ======================= string method ==========================
+"""
+str = "i am Coder"
+print(str.endswith('er'))       # return True/False
+
+print(str.capitalize())         # only first character of
+                                # string capital(i am. -> I am.)
+
+print(str.replace('C', 'c'))    # replace existing character temporary
+print(str)
+str = str.replace('C','c')      # replace existing character permanent
+print(str)
+
+print(str.find('coder'))        # find existig string, character, word
+
+print(str.count('am'))          # number of same character,string,word exist
+
+print(str.upper())              # upper full string
+print(str.lower())              # lower full string
+print(str.title())              # every word first character is capital
+"""
+# =======================
+
+
+
 
 
 
